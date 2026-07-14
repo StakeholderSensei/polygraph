@@ -1,0 +1,9 @@
+{
+  "name": "polygraph",
+  "version": "0.1.0",
+  "description": "A lie detector for your coding agent — blocks \"Done!\" until it shows receipts: real diffs, real test runs, every requirement verified.",
+  "author": { "name": "stakeholdersensei" },
+  "repository": "https://github.com/stakeholdersensei/polygraph",
+  "license": "MIT",
+  "keywords": ["verification", "hooks", "testing", "trust", "proof-of-done"]
+}

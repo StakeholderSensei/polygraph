@@ -1,0 +1,72 @@
+[
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "session_start",
+    "session_id": "s_bench_m0",
+    "source": "startup",
+    "cwd": "<cwd>"
+  },
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "file_write",
+    "session_id": "s_bench_m0",
+    "tool_use_id": "toolu_1",
+    "tool_name": "Write",
+    "file_path": "src/auth.ts",
+    "bytes": 20,
+    "id": "E1"
+  },
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "file_write",
+    "session_id": "s_bench_m0",
+    "tool_use_id": "toolu_2",
+    "tool_name": "Edit",
+    "file_path": "src/auth.ts",
+    "bytes": 2,
+    "id": "E2"
+  },
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "command",
+    "session_id": "s_bench_m0",
+    "tool_use_id": "toolu_3",
+    "command": "npx vitest run",
+    "background": false,
+    "exit_code": 0,
+    "exit_source": "harness_event",
+    "matched_runner": "npm",
+    "id": "E3"
+  },
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "command",
+    "session_id": "s_bench_m0",
+    "tool_use_id": "toolu_4",
+    "command": "some-opaque-tool",
+    "background": true,
+    "exit_code": null,
+    "exit_source": "unknown",
+    "matched_runner": null,
+    "id": "E4"
+  },
+  {
+    "v": 1,
+    "ts": "<ts>",
+    "kind": "tool_fail",
+    "session_id": "s_bench_m0",
+    "tool_use_id": "toolu_5",
+    "tool_name": "Bash",
+    "error_excerpt": "Exit code 1\n2 failed, 14 passed\n\n2 failed, 14 passed",
+    "command": "pytest -q",
+    "matched_runner": "pytest",
+    "exit_code": 1,
+    "exit_source": "failure_text",
+    "id": "E5"
+  }
+]

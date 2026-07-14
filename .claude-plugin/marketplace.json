@@ -1,0 +1,11 @@
+{
+  "name": "stakeholdersensei",
+  "owner": { "name": "stakeholdersensei" },
+  "plugins": [
+    {
+      "name": "polygraph",
+      "source": "./",
+      "description": "A lie detector for your coding agent — blocks \"Done!\" until it shows receipts."
+    }
+  ]
+}

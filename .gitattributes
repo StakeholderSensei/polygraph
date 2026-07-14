@@ -1,0 +1,4 @@
+# PRD §10: repo sources are UTF-8, LF — keep them LF on every platform.
+* text=auto eol=lf
+*.png binary
+*.gif binary

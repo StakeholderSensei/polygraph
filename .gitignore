@@ -1,0 +1,14 @@
+# Runtime state (created per-project by the plugin, never shipped)
+.polygraph/
+
+# Node — this project is zero-dependency; node_modules must never exist
+node_modules/
+
+# Bench/test residue (bench runs execute in %TEMP%, but belt-and-braces)
+*.tmp
+*.log
+.polygraph-bench/
+
+# OS noise
+Thumbs.db
+.DS_Store

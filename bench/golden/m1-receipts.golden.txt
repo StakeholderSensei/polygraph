@@ -1,0 +1,12 @@
+POLYGRAPH RECEIPTS — session <sid> — <ts> — mode: standard — blocks: 1
+┌──────┬───────────────────────────────────────────────┬────────┬────────────────────────────────────────┐
+│ Req  │ Requirement                                   │ Status │ Evidence                               │
+├──────┼───────────────────────────────────────────────┼────────┼────────────────────────────────────────┤
+│ R1   │ add rate limiting middleware                  │  ✅     │ E1 write src/rate.ts (git not a git r… │
+│ R2   │ update API docs                               │  ❌     │ —                                      │
+│ R3   │ dashboard widget                              │  ➖     │ deferred (user: P1)                    │
+│ R4   │ make it feel snappy                           │  ❓     │ needs clarification                    │
+│ R5   │ manual smoke on mobile                        │  ⚠     │ manual — awaits human review           │
+└──────┴───────────────────────────────────────────────┴────────┴────────────────────────────────────────┘
+git: n/a (not a git repo / git missing) · runner: none · exit-code source: harness_event/failure_text
+VERDICT: BLOCKED (R2) — resolve, defer with user approval, or confess.
